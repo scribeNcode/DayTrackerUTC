@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+main{
+    margin-top: 15vh;
+}
+
+
+/* card wrapper */
+.card_wrapper{
+    width: 40%;
+    background: rgb(156, 173, 206);
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.content_wrapper{
+   /* background: blueviolet; */
+   width: 90%;
+   height: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-content: center; */
+}
+
+.div_items{
+    padding-top: 1rem;
+}
+
+
+
+p{
+    display: inline-block;
+}
+
+
+
+#my_image{
+    border-radius: 50%;
+    background: grey;
+    width: 30%;
+
+}
