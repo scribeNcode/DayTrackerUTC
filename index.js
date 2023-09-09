@@ -19,4 +19,5 @@ function dateAndTime(){
 
 }
 
+//real time update of Time and Day
 setInterval(dateAndTime, 1000)
