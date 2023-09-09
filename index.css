@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -14,11 +15,13 @@ main{
 /* card wrapper */
 .card_wrapper{
     width: 40%;
-    background: rgb(156, 173, 206);
+    min-width: 300px;
+    background: rgb(231, 214, 214);
     height: 70vh;
     text-align: center;
     display: flex;
     align-items: center;
+    border-radius: 1rem;
 }
 
 .content_wrapper{
@@ -32,16 +35,29 @@ main{
    /* align-content: center; */
 }
 
+#prominent{
+    border-bottom: 2px solid #335096;
+}
+
 .div_items{
     padding-top: 1rem;
 }
 
-
+#myslackName{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    
+}
 
 p{
     display: inline-block;
+    font-size: 1.2rem;
 }
 
+label{
+    font-weight: bold;
+}
 
 
 #my_image{
@@ -50,3 +66,25 @@ p{
     width: 30%;
 
 }
+
+
+a {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    padding: 12px 32px;
+    /* width: 12rem; */
+    background: #335096;
+    color: white;
+    border: 1px solid #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    
+  }
+
+
+  button:hover{
+    background: #a8538c;
+    
+    font-weight: bolder;
+  }
