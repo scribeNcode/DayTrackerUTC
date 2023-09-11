@@ -1,90 +1,70 @@
-*{
-    padding: 0;
-    margin: 0 auto;
-    box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif;
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-
-
-main{
-    margin-top: 15vh;
+body {
+  margin-top: 15vh;
 }
-
 
 /* card wrapper */
-.card_wrapper{
-    width: 40%;
-    min-width: 300px;
-    background: rgb(231, 214, 214);
-    height: 70vh;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    border-radius: 1rem;
+.card_wrapper {
+  width: 40%;
+  min-width: 300px;
+  background: rgb(231, 214, 214);
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
 }
 
-.content_wrapper{
-   /* background: blueviolet; */
-   width: 90%;
-   height: 100%;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   /* align-content: center; */
+.content_wrapper {
+  /* background: blueviolet; */
+  width: 90%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#prominent{
-    border-bottom: 2px solid #335096;
+.div_items {
+  padding-top: 1rem;
 }
 
-.div_items{
-    padding-top: 1rem;
+p {
+  display: inline-block;
+  font-size: 1.2rem;
 }
 
-#myslackName{
-    font-weight: bolder;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    
+h2 {
+  font-size: 14px;
 }
 
-p{
-    display: inline-block;
-    font-size: 1.2rem;
+[data-testid="slackDisplayImage"] {
+  border-radius: 50%;
+  background: grey;
+  width: 30%;
 }
-
-label{
-    font-weight: bold;
-}
-
-
-#my_image{
-    border-radius: 50%;
-    background: grey;
-    width: 30%;
-
-}
-
 
 a {
-    text-transform: uppercase;
-    font-size: 0.7rem;
-    padding: 12px 32px;
-    /* width: 12rem; */
-    background: #335096;
-    color: white;
-    border: 1px solid #fff;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 0.6rem;
-    
-  }
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding: 12px 32px;
+  /* width: 12rem; */
+  background: #335096;
+  color: white;
+  border: 1px solid #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0.6rem;
+}
 
+button:hover {
+  background: #a8538c;
 
-  button:hover{
-    background: #a8538c;
-    
-    font-weight: bolder;
-  }
+  font-weight: bolder;
+}

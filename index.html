@@ -4,46 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HNGx Task One</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header>
-
-    </header>
-    <main>
-      <section class="card_wrapper">
+    <section class="card_wrapper">
       <div class="content_wrapper">
-        <div id="prominent" class="div_items">
-          <label for="myslackName">Slack Name:</label>
-          <p id="myslackName" data-testid="slackUserName">scribeNcode</p>
+        <div class="div_items">
+          <h2>Slack Name:</h2>
+          <h1 data-testid="slackUserName">scribeNcode</h1>
         </div>
         <div class="div_items">
-          <img id="my_image" src="./images/myImage.png" alt="scribeNcode" data-testid="slackDisplayImage" >
+          <img
+            src="./images/myImage.png"
+            alt="scribeNcode"
+            data-testid="slackDisplayImage"
+          />
         </div>
         <div class="div_items">
-          <label for="">Current Day of the Week:</label>
+          <h2>Current Day of the Week:</h2>
           <p data-testid="currentDayOfTheWeek"></p>
         </div>
         <div class="div_items">
-          <label for="">CurrentUTCTime: </label>
+          <h2>CurrentUTCTime:</h2>
           <p data-testid="CurrentUTCTime"></p>
         </div>
         <div class="div_items">
-          <label for="track">Track:</label>
-          <p id="track" data-testid="myTrack">Frontend</p>
+          <h2>Track:</h2>
+          <p data-testid="myTrack">Frontend</p>
         </div>
         <div class="div_items">
-          <a  target="_blank" href="https://github.com/scribeNcode/DayTrackerUTC" data-testid="githubURL">Github Repo</a>
+          <a
+            target="_blank"
+            href="https://github.com/scribeNcode/DayTrackerUTC"
+            data-testid="githubURL"
+            >Github Repo</a
+          >
         </div>
       </div>
-        
-      </section>
-      
-    </main>
-    <footer></footer>
+    </section>
+
     <script src="./index.js"></script>
   </body>
 </html>
