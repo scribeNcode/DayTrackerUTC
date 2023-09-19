@@ -1,7 +1,7 @@
 # DayTrackerUTC
 
 
-LINK :  https://day-tracker-utc-jpfa-adhnjgieb-scribencode.vercel.app/
+Link : https://day-tracker-utc-jpfa.vercel.app/
 
 
 
